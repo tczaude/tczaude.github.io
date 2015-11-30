@@ -1,0 +1,29 @@
+﻿footer{
+    .fa {
+        color: cadetblue;
+    }
+    .left{
+        span{
+            padding: 0 0 0 3em;    
+        }
+        .tel{
+            padding: 0 0 0 1em;
+            color: white;
+            font-size: 1.5em;
+        }
+    }
+    .center{
+        text-align: right;
+    }
+    .right{
+        text-align: right;
+        padding: 0 3em 0 0;    
+    }
+    
+    border-radius: 0 0 8px 8px;
+    align-items: center;
+    display: flex;
+    background-color: #3e4144;
+/*    @include background(image-url("footer.png"), linear-gradient(to bottom right, #333, #0c0));*/
+
+}

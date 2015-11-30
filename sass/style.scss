@@ -1,0 +1,34 @@
+﻿// Screen
+// ======
+
+@import "grids";
+
+body { 
+    @include container(60em); 
+}
+header, content, footer{
+    .head_left_div{
+        @include span(30%);
+    }
+    @include span(100%);
+}
+.center{
+    @include span(20%);
+}
+.left{
+    @include span(40%);
+}
+
+nav , .right{ 
+    @include span(last 55%); 
+    
+}
+.lang_choser{
+    .lang_flag{
+        @include span(20%);
+    }
+    .lang_text{
+        @include span(20%);
+    }
+    @include span(100%);
+}
