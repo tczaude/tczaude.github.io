@@ -1,6 +1,6 @@
 ﻿footer{
     .fa {
-        color: cadetblue;
+/*         color: white; */
     }
     .left{
         span{
@@ -8,22 +8,29 @@
         }
         .tel{
             padding: 0 0 0 1em;
-            color: white;
-            font-size: 1.5em;
+/*             color: white; */
+            font-size: 2.5em;
         }
     }
-    .center{
+    .center, 
+    .right{
         text-align: right;
     }
     .right{
-        text-align: right;
         padding: 0 3em 0 0;    
     }
-    
     border-radius: 0 0 8px 8px;
     align-items: center;
     display: flex;
+    justify-content: center;
     background-color: #3e4144;
-/*    @include background(image-url("footer.png"), linear-gradient(to bottom right, #333, #0c0));*/
+    position: absolute;
+    bottom: 1em;
+    max-width: 60em;
+    height: 3em;
 
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+    letter-spacing: 5px;
+    font: 1em 'MisoRegular';
 }

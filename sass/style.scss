@@ -20,15 +20,19 @@ header, content, footer{
 }
 
 nav , .right{ 
-    @include span(last 55%); 
-    
+    @include span(last 55%);     
 }
-.lang_choser{
-    .lang_flag{
-        @include span(20%);
-    }
-    .lang_text{
-        @include span(20%);
-    }
-    @include span(100%);
+
+
+.lang{
+    @include span(40%);
+        .lang_choser{
+            @include span(100%);
+            .lang_flag{
+                @include span(20%);
+            }
+            .lang_text{
+                @include span(last 60%);
+            }
+        }
 }
