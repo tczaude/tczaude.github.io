@@ -1,15 +1,20 @@
 ﻿footer{
     .fa {
+        font-size: 1.25em;
+        color: blue;
 /*         color: white; */
     }
     .left{
         span{
             padding: 0 0 0 3em;    
+            font-size: 1.25em;
+            white-space: nowrap;
         }
         .tel{
             padding: 0 0 0 1em;
 /*             color: white; */
-            font-size: 2.5em;
+            font-size: 1.25em;
+            white-space: nowrap;
         }
     }
     .center, 
